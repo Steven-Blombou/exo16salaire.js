@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validate</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body>
+    <div>
+        <div>
+            Régime :<br />
+            <input type="radio" name="regime" id="regime" value="salarie" checked="checked"> Salarié<br>
+            <input type="radio" name="regime" id="regime" value="cadre"> Cadre<br>
+            <input type="radio" name="regime" id="regime" value="publique"> Fonction Publique<br>
+            <input type="radio" name="regime" id="regime" value="liberale"> Profession Libérale<br>
+            <input type="radio" name="regime" id="regime" value="portage"> Portage Salarial<br>
+        </div>
+        <br>
+        <div>
+            <label for="label1">Salaire horraire brut :</label>
+            <input type="text" id="hbrut" size="10">
+            <label for="label1">Salaire mensuel brut :</label>
+            <input type="text" id="mbrut" size="10">
+            <label for="label1">Salaire annuel brut :</label>
+            <input type="text" id="abrut" size="10">
+            Régime : <span id="regimeout"></span><br>
+            Facteur : <span id="facteurout"></span><br>
+            Salaire net : <span id="net"></span><br>
+        </div>
+    </div>
+
+
+      <script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
