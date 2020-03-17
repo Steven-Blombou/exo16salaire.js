@@ -1,0 +1,1 @@
+# exo16salaire.js
